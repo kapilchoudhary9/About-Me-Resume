@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>About Me</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+      }
+      /* body::before{
+        content: "";
+        background: black no-repeat center center/cover;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        opacity: 0.9;
+      } */
+
+      body {
+        background-color: #323232;
+      }
+
+      h1 {
+        font-size: 56px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .top-show {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        color: white;
+      }
+
+      .top-me {
+        color:#3333ff;
+      }
+
+      .back-resume {
+        position: absolute;
+        z-index: -99;
+        text-transform: uppercase;
+        font-size: 110px;
+        color: (0, 0%, 100%, 0.07);
+        letter-spacing: 10px;
+        font-weight: 800;
+      }
+
+      .top-show::before {
+        content: "";
+        background: black no-repeat center center/cover;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        opacity: 0.9;
+      }
+
+      .personal-info {
+        /* border: 3px solid red; */
+        color: white;
+        display: flex;
+        width: 55vw;
+        flex-wrap: wrap;
+        padding-bottom: 22px;
+        line-height: 55px;
+        margin-top: 100px;
+      }
+
+      li {
+        width: 45%;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0px 10px;
+      }
+
+      .cont-title {
+        text-transform: capitalize;
+      }
+
+      .cont-info {
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      h2 {
+        margin: 0px 10px;
+        width: 100%;
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .download-cv {
+        background-color: transparent;
+        border: 2px solid #3333ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        word-spacing: 10px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        padding-left: 17px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 2.6;
+        margin: 21px 10px;
+        transition-duration: 150ms;
+        transition-property: background-color;
+        /* transform: scaleX(1.6);
+        transform: scaleY(1.6); */
+
+        cursor: pointer;
+      }
+
+      .download-img {
+        margin-left: 15px;
+        border-radius: 50%;
+      }
+
+      .download-cv:hover {
+        background-color: #3333ff;
+      }
+      /* .gen-info{
+        border: 2px solid red;
+      } */
+      .zero{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .gen-info{
+        width: 33vw;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin-top: 100px;
+
+      }
+      
+      .quality-block{
+        display: block !important;
+      }
+      .info{
+        border-radius: 6%;
+        padding: 10px;
+        position: relative;
+        margin-bottom: 10px;
+        border: 2px solid #3333ff;
+        width: 40%;
+        color: white;
+      }
+       
+      h3{
+        font-size: 50px;
+        font-weight: 700;
+        color:#3333ff;
+        
+      }
+    h3::after{
+        content: "+";
+        font-size: 33px;
+        font-weight: 300;
+        position: absolute;
+        top: 7px;
+        left: 78px;
+        
+      }
+      p{
+        margin-left: 45px;
+      }
+      p::before{
+        background: #777;
+        content: "";
+        height: 1px;
+        width: 30px;
+        position: absolute;
+        top: 80px;
+        left: 12px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="conainer">
+      <div class="top-show">
+        <h1>
+          About
+          <span class="top-me">me</span>
+        </h1>
+        <span class="back-resume"> Resume </span>
+      </div>
+      <div class="zero">
+      <div class="personal-info">
+        <h2>personal info</h2>
+        <ul>
+          <li>
+            <span class="cont-title">First Name:</span>
+            <span class="cont-info">Kapil</span>
+          </li>
+          <li>
+            <span class="cont-title">Last Name:</span>
+            <span class="cont-info">Choudhary</span>
+          </li>
+          <li>
+            <span class="cont-title">Age:</span>
+            <span class="cont-info">20 Years</span>
+          </li>
+          <li>
+            <span class="cont-title">Nationality:</span>
+            <span class="cont-info">indian</span>
+          </li>
+          <li>
+            <span class="cont-title">Freelance:</span>
+            <span class="cont-info">Available</span>
+          </li>
+          <li>
+            <span class="cont-title">Address:</span>
+            <span class="cont-info">Rajasthan</span>
+          </li>
+          <li>
+            <span class="cont-title">Phone no:</span>
+            <span class="cont-info">+91721993542</span>
+          </li>
+          <li>
+            <span class="cont-title">Email:</span>
+            <span class="cont-info">kapilchoudhary0123@gmail.com</span>
+          </li>
+          <li>
+            <span class="cont-title">Github:</span>
+            <span class="cont-info">kapilchoudhary9</span>
+          </li>
+          <li>
+            <span class="cont-title">Language:</span>
+            <span class="cont-info">English, Hindi</span>
+          </li>
+        </ul>
+        <div class="download-cv">
+          <span class="dwn-cont">Download cv</span>
+          <img
+            src="/images/download-icon.gif"
+            alt="download button"
+            width="30px"
+            height="30px"
+            class="download-img"
+          />
+        </div>
+      </div>
+      <div class="gen-info">
+        <div class="info1 info">
+            <h3>12</h3>
+            <p>years of
+                <span class="quality-block">experience</span>
+            </p>
+        </div>
+        <div class="info2 info">
+            <h3>10</h3>
+            <p>completed
+            <span class="quality-block">Projects</span>
+          </p>
+        </div>
+        <div class="info3 info">
+            <h3>10</h3>
+            <p>happy
+                <span class="quality-block">customers</span>
+            </p>
+        </div>
+        <div class="info4 info">
+            <h3>10</h3>
+            <p>awards
+                <span class="quality-block">won</span>
+            </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
